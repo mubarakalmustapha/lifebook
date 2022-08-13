@@ -1,0 +1,98 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.37);
+  margin: 20px 0;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postimg {
+  border-radius: 5px;
+}
+
+.postTopLeft img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUserName {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate {
+  font-size: 12px;
+}
+
+.postCenter {
+  margin: 30px 0;
+}
+
+.postCenter img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.postBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBottomLeft {
+  display: inline-flex;
+  align-items: center;
+}
+
+.likeIcon {
+  margin-right: 5px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.likesCounter {
+  font-size: 15px;
+}
+
+.commentText {
+  cursor: pointer;
+  font-size: 15px;
+  border-bottom: 1px dashed gray;
+}
+
+.delete {
+  margin-left: 10px;
+  padding: 3px 7px;
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.delete:focus {
+  outline: auto;
+}

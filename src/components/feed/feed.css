@@ -1,0 +1,52 @@
+.feed {
+    flex: 5.5;
+    margin: 20px;
+}
+
+.storyContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.story {
+    position: relative;
+}
+
+.storyUsername {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.storyImage {
+    width: 100px;
+    border-radius: 6px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.userAvata {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 3px solid #1877f2;
+}
+
+.userAvata.isMyStory {
+    top: unset;
+    transform: translateX(70%);
+    width: 30px;
+    height: 30px;
+    bottom: 40px;
+    object-fit: cover;
+    border: 3px solid gray;
+}
